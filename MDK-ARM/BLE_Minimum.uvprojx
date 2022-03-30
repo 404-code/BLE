@@ -393,6 +393,11 @@
               <FileType>1</FileType>
               <FilePath>..\Src\bluenrg_lp_it.c</FilePath>
             </File>
+            <File>
+              <FileName>lp_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\lp_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
