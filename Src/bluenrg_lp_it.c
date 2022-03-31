@@ -29,6 +29,8 @@
 #include "crash_handler.h"
 #include "rf_driver_hal_vtimer.h"
 
+#include "lp_uart.h"
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -93,7 +95,7 @@ void SysTick_IRQHandler(void)
 
 void USART1_IRQHandler(void)
 {  
-  
+  BSP_COM_IRQHandler();
 }
 
 

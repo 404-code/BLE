@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_FULL_LL_DRIVER BLE_STACK_SLAVE_DLE_CONF CONFIG_HW_HSE_TUNE=32 CONFIG_HW_SMPS_10uH CONFIG_HW_LS_XTAL</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\Inc\bsp;..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include;..\Drivers\Peripherals_Drivers\inc;..\Middlewares\ST\hal\Inc;..\Middlewares\ST\NVMDB\Inc;..\Middlewares\ST\Bluetooth_LE\inc;..\Middlewares\ST\BLE_Application\layers_inc;..\Middlewares\ST\NVMDB\Inc;..\Middlewares\ST\Bluetooth_LE\inc;..\Middlewares\ST\BLECNTR\Inc;..\Middlewares\ST\AESMGR\Inc;..\Middlewares\ST\PKAMGR\Inc;..\Middlewares\ST\RNGMGR\Inc;..\Middlewares\ST\cryptolib\inc;..\Middlewares\ST\cryptolib\inc\AES;..\Middlewares\ST\hal\Inc</IncludePath>
+              <IncludePath>..\Inc;..\Inc\bsp;..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include;..\Drivers\Peripherals_Drivers\inc;..\Middlewares\ST\hal\Inc;..\Middlewares\ST\NVMDB\Inc;..\Middlewares\ST\Bluetooth_LE\inc;..\Middlewares\ST\BLE_Application\layers_inc;..\Middlewares\ST\NVMDB\Inc;..\Middlewares\ST\Bluetooth_LE\inc;..\Middlewares\ST\BLECNTR\Inc;..\Middlewares\ST\AESMGR\Inc;..\Middlewares\ST\PKAMGR\Inc;..\Middlewares\ST\RNGMGR\Inc;..\Middlewares\ST\cryptolib\inc;..\Middlewares\ST\cryptolib\inc\AES</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -384,11 +384,6 @@
           <GroupName>Application</GroupName>
           <Files>
             <File>
-              <FileName>BLE_Minimum.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\BLE_Minimum.c</FilePath>
-            </File>
-            <File>
               <FileName>bluenrg_lp_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Src\bluenrg_lp_it.c</FilePath>
@@ -397,6 +392,11 @@
               <FileName>lp_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Src\lp_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>BLE_main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\BLE_main.c</FilePath>
             </File>
           </Files>
         </Group>
